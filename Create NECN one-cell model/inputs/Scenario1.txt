@@ -1,0 +1,26 @@
+LandisData Scenario
+
+Duration 80
+
+Species 		"species.txt"
+
+Ecoregions 		"ecoregions.txt"
+EcoregionsMap 		"./rasters/ecoregions.tif"
+
+CellLength 60 << meters
+
+>> Succession Extension Initialization File
+>> -------------------- -------------------
+
+"NECN Succession"	NECN_Succession.txt
+
+
+>> Disturbance Extensions Initialization File
+>> ---------------------- -------------------
+
+DisturbancesRandomOrder no
+
+>> Output Extensions Initialization File
+>> ----------------- -------------------
+
+>>RandomNumberSeed 4,357
